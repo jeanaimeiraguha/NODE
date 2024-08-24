@@ -52,12 +52,12 @@ res.send("Welcome to Iraguha Tech")
 
 })
 app.route('/Users').get((req,res)=>{
-  res.users({
+  res.json({
     Admin:"Iraguha",
     Director:"Cyusa"
     
   })
-  res.send(users);
+
 })
 
 /*
