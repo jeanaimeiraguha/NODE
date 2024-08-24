@@ -24,9 +24,24 @@ app.listen(()=>{
 */
 
 
+/*
 exports.AddNumber=function(a, b){
   return a+b;
 }
 const Addition= require('./Addition.js')
 
 console.log(Addition.AddNumber(1,2))
+
+*/
+
+
+var express=require('express');
+var app=express();
+app.get('/',function(req,res)
+{
+ res.send('EXpresss server made by Iraguha Is Running.......!');
+});
+var server=app.listen(3000,()=> {
+  console.log("my express server is  running on http://localhost:3000")
+});
+
