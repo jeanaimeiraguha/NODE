@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "yep this how to set up node js server with express and using http module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NODE JS"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "JEAN AIME",
+  "license": "ISC"
+}
