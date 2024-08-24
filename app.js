@@ -45,10 +45,27 @@ var server=app.listen(3000,()=> {
   console.log("my express server is  running on http://localhost:3000")
 });
 
-app.route('/Node').get((req,res)=>{
-res.send("gaming with Iraguha")
+/*generate express routes to generste message whenever user tried to access url
+*/
+app.route('/Home').get((req,res)=>{
+res.send("Welcome to Iraguha Tech")
 
 })
-app.route('/Angular').get((req,res)=>{
-  res.send("Angilar ahead")
+app.route('/Users').get((req,res)=>{
+  res.users({
+    Admin:"Iraguha",
+    Director:"Cyusa"
+    
+  })
+  res.send(users);
 })
+
+/*
+
+app.set('view engine','jade');
+app.get('/',function(req,res)
+{
+ res.render('index',
+ {title:'Guru99',message:'Welcome'})
+});
+*/
