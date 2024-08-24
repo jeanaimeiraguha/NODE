@@ -11,10 +11,6 @@ MongoClient.connect(url,(err, db)=>{
 
 /*
 
-
-
-
-
 In the first step, we are creating a cursor (A cursor is a
 pointer which is used to point to the various records
 fetched from a database. The cursor is then used to
