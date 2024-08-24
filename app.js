@@ -45,3 +45,10 @@ var server=app.listen(3000,()=> {
   console.log("my express server is  running on http://localhost:3000")
 });
 
+app.route('/Node').get((req,res)=>{
+res.send("gaming with Iraguha")
+
+})
+app.route('/Angular').get((req,res)=>{
+  res.send("Angilar ahead")
+})
